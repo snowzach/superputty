@@ -124,6 +124,10 @@ namespace SuperPutty
                 this.restartSessionToolStripMenuItem.Visible = false;
                 this.clearScrollbackToolStripMenuItem.Visible = false;
                 this.resetTerminalToolStripMenuItem.Visible = false;
+                this.resetAndClearScrollbackToolStripMenuItem.Visible = false;
+                this.aboutPuttyToolStripMenuItem.Visible = false;
+            } else {
+                this.optionsToolStripMenuItem.Visible = false;
             }
         }
 
